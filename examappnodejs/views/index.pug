@@ -1,0 +1,12 @@
+doctype html  
+html(lang='en')  
+ head
+   title Pug
+ body
+  h1=title
+  p Welcom LandMarks Names
+  
+   each landmark in landmarks
+    ul
+     li=landmark.name
+      br
